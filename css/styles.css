@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#smaller-sec{
+  height:65px ;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding-left: 200px;
+  padding-top: 13px;
+  background-color:orange;
+  display: flex;
+  padding-right: 220px;
+}
+#down-links{
+  display: flex;
+  gap: 13px;
+  font-size: 25px;
+  list-style: none;
+  margin-top: 5px;
+ 
+}
+#title {
+  list-style: none;
+  padding-right: 30px;
+}
