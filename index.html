@@ -1,25 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="js/bootstrap.bundle.js"></script>
 </head>
+
 <body>
-  
-    <div id="smaller-sec">
-      <ul id="title">
-        <li><a href=""></a><img src="./img/nassau.png" alt=""></li>
-      </ul>
-      <ul id="down-links">
-        <li><a class="small-links" href="">Home</a></li>
-        <li><a class="small-links" href="">About</a></li>
-        <li><a class="small-links" href="">Programs</a></li>
-        <li><a class="small-links" href="">Blog</a></li>
-        <li><a class="small-links" href="">Donate</a></li>
-      </ul>
+
+  <div id="smaller-sec">
+    <ul id="title">
+      <li><a href=""></a><img src="./img/nassau.png" alt=""></li>
+    </ul>
+    <ul id="down-links">
+      <li><a class="small-links" href="">Home</a></li>
+      <li><a class="small-links" href="">About</a></li>
+      <li><a class="small-links" href="">Programs</a></li>
+      <li><a class="small-links" href="">Blog</a></li>
+      <li><a class="small-links" href="">Donate</a></li>
+    </ul>
+  </div>
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/fowls.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/piglets.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/cows.webp" class="d-block w-100" alt="...">
+      </div>
     </div>
-  <div id="page"></div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 </body>
+
 </html>

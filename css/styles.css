@@ -12,15 +12,40 @@
   display: flex;
   padding-right: 220px;
 }
+
 #down-links{
   display: flex;
   gap: 13px;
   font-size: 25px;
   list-style: none;
   margin-top: 5px;
- 
 }
+
+.small-links{
+  text-decoration: none;
+  list-style: none;
+  font-size: 25px;
+  padding: 0px 10px;
+ color: black; 
+ border-right: 1px solid white;
+  
+}
+
+.black{
+  color: black;
+}
+
 #title {
   list-style: none;
   padding-right: 30px;
+}
+
+#page{
+  height: 20px;
+  width: 20px;
+}
+
+.carousel-item{
+  height: 550px;
+  width: auto
 }
