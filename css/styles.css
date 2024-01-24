@@ -127,7 +127,16 @@ width: 100%;
 }
 
 .bigger{
-  background-color: green;
+  padding-bottom: 2px;
   height: 590px;
   width: 100%;
+  background-image: url(../img/cow\ butt.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.picture{
+  height: 100%;
+  width: 100%;
+  background-color: hsla(0, 0%, 100%, 0.445);
 }
