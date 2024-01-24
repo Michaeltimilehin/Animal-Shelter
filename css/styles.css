@@ -1,23 +1,27 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-#smaller-sec{
-  height:65px ;
+
+#smaller-sec {
+  height: 65px;
+  width: 100%;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   padding-left: 200px;
   padding-top: 13px;
-  background-color:orange;
+  background-color: orange;
   display: flex;
   padding-right: 220px;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
 }
-.size{
-  padding-top:  65px;
+
+.size {
+  padding-top: 65px;
 }
-#down-links{
+
+#down-links {
   display: flex;
   gap: 13px;
   font-size: 25px;
@@ -25,17 +29,17 @@
   margin-top: 5px;
 }
 
-.small-links{
+.small-links {
   text-decoration: none;
   list-style: none;
   font-size: 25px;
   padding: 0px 10px;
- color: black; 
- border-right: 1px solid white;
-  
+  color: black;
+  border-right: 1px solid white;
+
 }
 
-.black{
+.black {
   color: black;
 }
 
@@ -44,44 +48,86 @@
   padding-right: 30px;
 }
 
-#page{
+#page {
   height: 20px;
   width: 20px;
 }
 
-.carousel-item{
+.carousel-item {
   height: 550px;
   width: auto
 }
 
-#heading-cont{
+#heading-cont {
   height: 70px;
   width: auto;
   color: beige;
-  
+
 }
 
-#big-sec{
-  background-color: orange; 
+#big-sec {
+  background-color: orange;
   height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
-#second-head{
+#second-head {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: black;
   font-size: 40px;
- 
+
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
+
 }
-.arrange{
+
+.arrange {
   margin-top: 70px;
   align-items: center;
 }
-#sentence{
+
+#sentence {
   margin-top: 80px;
   font-size: 40px;
+}
+
+.cards{
+  height: 280px;
+  background-color: aquamarine;
+}
+
+#cut{
+width: 100%;
+ margin-left: 0.1px;
+}
+#kit{
+  background-image: url(../img/fowls\ img.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#context{
+  background-image: url(../img/burg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#moth{
+  background-image: url(../img/pork.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#list{
+  background-image: url(../img/cows\ img.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bigger{
+  background-color: green;
+  height: 590px;
+  width: 100%;
 }
