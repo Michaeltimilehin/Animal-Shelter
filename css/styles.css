@@ -11,8 +11,12 @@
   background-color:orange;
   display: flex;
   padding-right: 220px;
+  position: fixed;
+  z-index: 1;
 }
-
+.size{
+  padding-top:  65px;
+}
 #down-links{
   display: flex;
   gap: 13px;
@@ -48,4 +52,36 @@
 .carousel-item{
   height: 550px;
   width: auto
+}
+
+#heading-cont{
+  height: 70px;
+  width: auto;
+  color: beige;
+  
+}
+
+#big-sec{
+  background-color: orange; 
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#second-head{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  font-size: 40px;
+ 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.arrange{
+  margin-top: 70px;
+  align-items: center;
+}
+#sentence{
+  margin-top: 80px;
+  font-size: 40px;
 }
