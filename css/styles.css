@@ -92,6 +92,7 @@
 #sentence {
   margin-top: 80px;
   font-size: 40px;
+  font-weight: 500;
 }
 
 .cards{
@@ -225,4 +226,41 @@ width: 100%;
 }
 #space{
   margin-top: 10px;
+}
+
+#center{
+  text-align: center;
+  color: black;
+}
+
+#impact{
+  display: flex;
+  justify-content: space-evenly;
+  color: black;
+ margin-top: 50px;
+}
+#impact2{
+  display: flex;
+  justify-content: space-evenly;
+  color: black;
+ margin-top: 200px;
+}
+
+.country{
+  text-align: center;
+}
+
+.design{
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.team{
+  font-size:25px;
+  color: rgba(0, 0, 0, 0.582);
+}
+
+.made{
+ background-color: #FDCF0B;
+
 }
