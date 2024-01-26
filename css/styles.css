@@ -141,7 +141,7 @@ width: 100%;
   padding-top: 10px;
   height: 100%;
   width: 100%;
-  background-color: hsla(0, 0%, 100%, 0.445);
+  background-color: rgba(255, 255, 255, 0.473);
 }
 
 #heading-count {
@@ -257,10 +257,14 @@ width: 100%;
 
 .team{
   font-size:25px;
-  color: rgba(0, 0, 0, 0.582);
+  color: rgba(10, 10, 10, 0.774);
 }
 
 .made{
  background-color: #FDCF0B;
 
+}
+.entity{
+  font-size: 20px;
+  font-weight: 900;
 }
